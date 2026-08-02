@@ -1,7 +1,25 @@
 aid: the-pill-club
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-pill-club.png
 name: The Pill Club
-description: 'The Pill Club is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'The Pill Club was a US direct-to-consumer telehealth and pharmacy service
+  for birth control and reproductive health, delivering prescription contraception and
+  sexual-health products by mail. The brand has been consolidated into Nurx (a Thirty
+  Madison company): its domain thepillclub.com now 301-redirects to nurx.com. It was
+  surfaced as a portfolio company of GV and added to the API Evangelist network for
+  enrichment. No public developer, API, or documentation surface was found for either
+  the legacy brand or its Nurx successor; this is a consumer healthcare service with
+  no external API program.'
 url: https://raw.githubusercontent.com/api-evangelist/the-pill-club/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +27,34 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-successor: nurx
+x-successor-parent: thirty-madison
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Telehealth
+- Womens Health
+- Birth Control
+- Pharmacy
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.nurx.com/
+- type: X-LegacyDomain
+  url: https://thepillclub.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
